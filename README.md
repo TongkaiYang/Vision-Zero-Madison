@@ -1,5 +1,4 @@
 # Vision-Zero-Madison
-# Vision-Zero-Madison
 #### This is ClarenceKuo's branch.
 
 ### Key directions
