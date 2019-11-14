@@ -1,0 +1,154 @@
+/* small table to big table:less than 977px */
+@media only screen and (max-width: 977px) {
+    
+    .title-row {
+        font-size: 14px;
+    }   
+    
+    .menu {
+        margin-top: 30px;
+    }
+ 
+   
+    .tetimonmeta {
+        margin-top: 12px;
+        text-align: right;
+    }
+    
+    .map {
+        width: 109%;
+    }
+    
+    .social-links {
+        font-size: 14px;
+        width: 125px;
+    }
+}
+
+/* small phone to small tablet:from 0px to 744px */
+@media only screen and (max-width: 744px) {
+    .navbar-nav {
+        margin-top: 6px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .logo {
+        margin-top: 0px;
+    }
+    
+    .title-row {
+        font-size: 10px;
+    }
+    
+    
+    .menu {
+        margin-top: 50px;
+        height: 100%;
+    }
+    
+    .boxImage,
+    .boxImage2,
+    .boxImage3{
+        height: 300px;
+    }
+    
+    .bgBlack {
+        height: 360px;
+    }
+    
+    .marginbottom {
+        margin-top: 30px;
+    }
+    
+    .list-custom {
+        margin-top: -40px;
+    }
+    
+    .bagel-row {
+        margin-top: 30px;
+    }
+    
+    #section-meals {
+        margin-top: 30px;
+    }
+    
+    .testimonialimg {
+        height: 75vh;
+    }
+    
+    .bgcolor,
+    .bgwhite{
+        height: 380px;
+    }
+    
+    .map {
+        width: 103%;
+    }
+    
+    .social-links {
+        width: 150px;
+        font-size: 16px;
+        float: left;
+    }
+    
+    .social-links li {
+        margin-top: 4px;
+    }
+    
+    .copyrights {
+        text-align: center;
+    }
+    
+    .footernav {
+        float: none;
+    }
+    
+    
+}
+
+
+
+
+
+/*small phone :from 0 to 496px */
+@media only screen and (max-width: 496px) {
+    .navbar-nav {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .text-box {
+        font-size: 16px;
+        width: auto;
+    }
+    
+    .title-row{
+        font-size: 9px;
+    }
+    
+    .menu {
+        margin-top: 100px;
+    }
+    
+    .box {
+        margin-top: 16px;
+    }
+    
+    .bgcolor,
+    .bgwhite{
+        height: 300px;
+    }
+    
+    .map {
+        width: 106%
+    }
+    
+    .footerbg {
+        margin-top: -50px;
+    }
+      
+    .clear-nav {
+        clear: both;
+    }
+}

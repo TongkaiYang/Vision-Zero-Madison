@@ -1,0 +1,507 @@
+div,form,h1,h2,h3,h4,h5,h6,li,p,ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,body {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Noto Sans TC",sans-serif;
+    background: url('../img/pattern.jpg') center center;
+}
+
+
+h1 {
+    font-weight: 300;
+    margin-top: 80px;
+    font-size: 120%;
+    letter-spacing: 6px;
+}
+
+
+h2 {
+    font-size: 200%;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+h1:after {
+    display: block;
+    background-color: #e03d44;
+    content: "";
+    height: 2px;
+    width: 50px;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+h3:after {
+    height: 2px;
+    background-color: #e03d44; 
+    content: "";
+    width: 40px;
+    margin-top: 18px;
+    display: block;
+}
+
+
+h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h4:after {
+    display: block;
+    height: 2px;
+    background-color: #e03d44;
+    content: "";
+    width: 40px;
+    margin-top: 18px;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+
+
+
+.text-box {
+    color: #fff;
+    position: absolute;
+    transform: translate(10%, 110%);
+}
+
+.btn:link {
+    margin-top: 20px;
+    font-weight: 100;
+    border-radius: 8px;
+    transition: background-color 0.4s;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e03d44;
+    color: #fff;
+}
+
+
+.btn-full:hover {
+    background-color: rgba(224, 61, 68, 0.86);
+}
+
+
+
+
+/*--HEADER---*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),url(img/Restaurant_resized.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*--main nav--*/
+
+.logo {
+    margin-top: 12px;
+}
+
+.navbg {
+    background-color: rgba(42,43,47,1);
+}
+
+.navbar-nav {
+    margin-top: 5px;
+    font-weight: 200;
+    float: right;
+    line-height: 60px;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-nav li a:hover {
+    color: #e03d44;
+    transition: 0.4s;
+}
+
+/*---about-us----*/
+
+
+.about-us {
+    height: 35vh;
+}
+
+
+.title-row {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.dividerCenter {
+    height: 2px;
+    width: 40px;
+    background-color: #e03d44;
+    margin: 15px auto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+
+/*--menu--*/
+
+
+.menu {
+    height: 465px;
+}
+
+.boxImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/breakfast.jpg);
+    height: 465px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.boxImage2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/LUNCH.jpg);
+    height: 465px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.boxImage3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/drink.jpg);
+    height: 465px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.imageBoxesTitle {
+    position: absolute;
+    bottom:40px;
+    padding: 24px;
+}
+
+.imageBoxesTitle span {
+    font-size: 24px;
+    color:#fff;
+}
+
+.divder {
+    width:40px;
+    height: 2px;
+    background-color: #e03d44;
+    margin-top: 6px;
+}
+
+.bgBlack {
+    background-color: rgba(42,43,47,1);
+    width: 100%;
+    height: 465px;
+}
+
+
+.wall-sticker {
+    padding: 80px 40px;
+}
+
+.bgBlack p,
+.bgBlack h3 {
+    color:#fff;
+}
+
+.lead {
+    font-size:18px;
+    margin-top: 10px;
+}
+
+
+.ctaBtns {
+    margin-top: 20px;
+}
+
+.button {
+    line-height: 1;
+    padding: 12px 12px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: rgba(255,255,255,1);
+    color: rgba(42,43,47,1);
+    border-radius: 8px;
+}
+
+.button:hover {
+    text-decoration: none;
+    color:rgb(239, 36, 106);
+    transition: 0.4s;
+}
+
+
+.noPadding {
+    padding: 0;
+}
+
+
+/*-- Main menu --*/
+
+.food-breakfast {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)),url(img/breakfast_resized.jpg);
+    height: 640px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.list-custom {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.menuitem {
+    padding-left: 20px;
+}
+
+.menuitem span {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(42,43,47,1)
+}
+
+.smalltext {
+    font-size: 13.5px;
+    opacity: 0.8;
+}
+
+.marginbottom {
+    margin: 80px 0px 70px 20px;
+}
+
+.bagel-row {
+    margin-top: 40px;
+}
+
+
+/*--MEALS--*/
+
+.meal-photo {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.15);
+    transition: opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+}
+
+/*-testimonial--*/
+
+.testimonialimg {
+    background: url(img/lucho-9_resized.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgwhite-testimonial {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.mario-img {
+    width: 70px;
+    border-radius: 60%;
+}
+
+.mario-img:hover {
+    transform: scale(0.95);
+    transition: 0.4s;
+}
+
+.tetimonmeta {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.tetimonmeta span {
+    display: block;
+    font-weight: 400;
+    color: rgba(42,43,47,0.7);
+    font-size: 12px;
+}
+
+
+.tetimoncontent p:before,
+.tetimoncontent p:after {
+    content: '"';
+}
+
+.tetimoncontent p {
+    padding-top: 80px;
+}
+
+.box {
+    margin-top: 55px;
+}
+
+
+/*--contact--*/
+
+.messenger {
+    margin: 50px;
+}
+
+.bgcolor {
+    height: 480px;
+    background-color: #E44424;
+}
+
+.bgcolor h3,
+.bgcolor p{
+    color: rgba(255,255,255,1);
+}
+
+.bgcolor h3:after {
+    background-color: #fff;
+}
+
+.bgwhite {
+    height: 480px;
+    background-color: rgba(255,255,255,1);
+}
+
+.mail:hover {
+    color: rgba(224, 66, 19, 0.91);
+}
+
+
+.map {
+    width: 106%;
+    height: 480px;
+    margin-left: -13px;
+}
+
+/*--footer--*/
+
+.footerbg {
+    background-color: rgba(42,43,47,0.96);
+    color: rgba(255,255,255,0.8);
+}
+
+.social-links {
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+.social-links li {
+    display: block;
+    margin-top: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+    margin: 8px;
+    transition: color 0.4s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color:#55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #125688;
+}
+
+.icon-box {
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+}
+
+.copyrights {
+    background-color: rgb(38, 39, 46);
+}
+
+.copyrights a,
+.copyrights p{
+    margin: 0 10px;
+    line-height: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(255,255,255,0.4)
+}
+
+.footernav {
+    float: right;
+}
+
+
+.navbar-toggler {
+    float: right;
+}
+
+
+/*animated*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated {
+    opacity: 1;
+}
