@@ -102,7 +102,7 @@ h4:after {
 /*--HEADER---*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),url(img/Restaurant_resized.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),url(../img/MadisonWisconsin-image.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
