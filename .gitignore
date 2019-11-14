@@ -3,6 +3,18 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# shape files
+*.zip
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+
+# dataset
+*.xml
+*.csv
+
 # C extensions
 *.so
 
